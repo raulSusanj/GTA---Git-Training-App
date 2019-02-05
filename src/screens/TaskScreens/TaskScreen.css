@@ -1,0 +1,43 @@
+.Container {
+    background-color: #282c34;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .Stages-container {
+     display: flex;
+     flex-direction: row;
+     width: 100%;
+     margin-top: 1.5em;
+     justify-content: center;
+  }
+
+  .Stage {
+    margin: 1em;
+    width: 10em;
+    height: 10em;
+    text-align: center;
+  }
+
+  .Command-input {
+    width: 30em;
+    font-size: 20px;
+    padding: 1em;
+  }
+
+  .Submit-button {
+    font-size: 20px;
+    padding: 1em;
+    border-width: 2px;
+    border-color: #EE513B;
+    background-color: #EE513B;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: #fff;
+  }
