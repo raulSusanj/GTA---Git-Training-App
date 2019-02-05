@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./TaskScreen.css";
+import Back from "../../components/BackComponent/Back";
 // import Command from '../../components/CommandComponent/Command';
 // import NavigationButton from '../../components/NavigationButton/NavigationButton';
 
@@ -53,8 +54,6 @@ class ThirdTask extends Component {
         if (stages[2].active) {
           this.setState(state => {
             const stages = [...state.stages];
-            stages[1] = { ...stages[1], active: !state.stages[1].active };
-            stages[2] = { ...stages[2], active: !state.stages[2].active };
             stages[3] = { ...stages[3], active: !state.stages[3].active };
             return { stages };
           });
@@ -93,6 +92,35 @@ class ThirdTask extends Component {
           return { stages };
         });
       }
+      case "git reset":
+      case "git reset --mixed":
+      if (stages[2].active) {
+        this.setState(state => {
+          const stages = [...state.stages];
+          stages[2] = { ...stages[2], active: !state.stages[2].active };
+          return { stages };
+        });
+      }
+      break;
+      case "git reset --soft":
+      if (stages[3].active) {
+        this.setState(state => {
+          const stages = [...state.stages];
+          stages[3] = { ...stages[3], active: !state.stages[3].active };
+          return { stages };
+        });
+      }
+      break;
+      case "git reset --hard":
+      if (stages[3].active) {
+        this.setState(state => {
+          const stages = [...state.stages];
+          stages[1] = { ...stages[1], active: !state.stages[1].active };
+          stages[2] = { ...stages[2], active: !state.stages[2].active };
+          stages[3] = { ...stages[3], active: !state.stages[3].active };
+          return { stages };
+        });
+      }
       break;
       default:
         break;
@@ -111,6 +139,7 @@ class ThirdTask extends Component {
   render() {
     return (
       <div className="Container">
+      <Back />
         <h1>How it works?</h1>
         <p style={{ textAlign: "center" }}>
           Every commit can be changed, reverted but never deleted. Git always
