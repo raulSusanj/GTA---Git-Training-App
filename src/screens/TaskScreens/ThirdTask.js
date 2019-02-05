@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import "./TaskScreen.css";
 import Back from "../../components/BackComponent/Back";
-// import Command from '../../components/CommandComponent/Command';
-// import NavigationButton from '../../components/NavigationButton/NavigationButton';
+import NavigationButton from '../../components/NavigationButton/NavigationButton';
 
 class ThirdTask extends Component {
   constructor(props) {
@@ -92,6 +91,7 @@ class ThirdTask extends Component {
           return { stages };
         });
       }
+      break;
       case "git reset":
       case "git reset --mixed":
       if (stages[2].active) {
@@ -178,6 +178,7 @@ class ThirdTask extends Component {
             </div>
           ))}
         </div>
+        <NavigationButton label='Next' path='/tasks/fourth_task' />
       </div>
     );
   }

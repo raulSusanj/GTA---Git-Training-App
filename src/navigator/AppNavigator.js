@@ -5,6 +5,9 @@ import Home from '../screens/HomeScreen/Home';
 import FirstTask from '../screens/TaskScreens/FirstTask';
 import SecondTask from '../screens/TaskScreens/SecondTask';
 import ThirdTask from '../screens/TaskScreens/ThirdTask';
+import FourthTask from '../screens/TaskScreens/FourthTask';
+import FifthTask from '../screens/TaskScreens/FifthTask';
+import SixthTask from '../screens/TaskScreens/SixthTask';
 
 
 const routes = [
@@ -23,6 +26,18 @@ const routes = [
     {
         path: '/tasks/third_task',
         component: ThirdTask
+    },
+    {
+        path: '/tasks/fourth_task',
+        component: FourthTask
+    },
+    {
+        path: '/tasks/fifth_task',
+        component: FifthTask
+    },
+    {
+        path: '/tasks/sixth_task',
+        component: SixthTask
     },
 ]
 
