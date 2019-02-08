@@ -26,7 +26,7 @@ class FifthTask extends Component {
                     width={600}
                     />
                 </div>
-                <NavigationButton label='Next' path='/tasks/fifth_task' />
+                <NavigationButton label='Next' path='/tasks/sixth_task' />
             </div>
          );
     }

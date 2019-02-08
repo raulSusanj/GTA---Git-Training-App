@@ -16,7 +16,8 @@ const NavigationButton = (props) => {
                 fontFamily: 'monospace',
                 fontSize: 22,
                 fontWeight: 'bold',
-                margin: '1em'
+                margin: '1em',
+                borderRadius: '0'
                 }}
         >
             <Link 
