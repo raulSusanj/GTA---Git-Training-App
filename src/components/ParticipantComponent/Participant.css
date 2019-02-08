@@ -1,0 +1,25 @@
+.Header-container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    margin: 1em;
+    padding: 0 20px;
+    background-color: #282c34;
+}
+
+.Participant-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin: 1em;
+}
+
+.Participant-list-container {
+    width: 50%;
+    min-height: 100vh;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+}
