@@ -8,6 +8,7 @@ import ThirdTask from '../screens/TaskScreens/ThirdTask';
 import FourthTask from '../screens/TaskScreens/FourthTask';
 import FifthTask from '../screens/TaskScreens/FifthTask';
 import SixthTask from '../screens/TaskScreens/SixthTask';
+import SeventhTask from '../screens/TaskScreens/SeventhTask';
 
 
 const routes = [
@@ -38,6 +39,10 @@ const routes = [
     {
         path: '/tasks/sixth_task',
         component: SixthTask
+    },
+    {
+        path: '/tasks/seventh_task',
+        component: SeventhTask
     },
 ]
 

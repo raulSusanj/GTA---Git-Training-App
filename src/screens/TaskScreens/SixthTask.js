@@ -39,7 +39,7 @@ class SixthTask extends Component {
                         <CommandsList name={command.name} desc={command.desc} />
                     ))}
                 </List>
-                <NavigationButton label='Next' path='/tasks/fifth_task' />
+                <NavigationButton label='Next' path='/tasks/seventh_task' />
             </div>
          );
     }

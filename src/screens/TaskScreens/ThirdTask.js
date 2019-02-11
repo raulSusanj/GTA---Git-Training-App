@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Autorenew } from '@material-ui/icons';
 import "./TaskScreen.css";
 import Back from "../../components/BackComponent/Back";
 import NavigationButton from '../../components/NavigationButton/NavigationButton';
@@ -127,6 +128,17 @@ class ThirdTask extends Component {
     }
   };
 
+  resetAll = () => {
+    this.setState(state => {
+      const stages = [...state.stages];
+      stages[0] = { ...stages[0], active: false };
+      stages[1] = { ...stages[1], active: true };
+      stages[2] = { ...stages[2], active: false };
+      stages[3] = { ...stages[3], active: false };
+      return { stages };
+    });
+  }
+
   handleChange = e => {
     this.setState({ inputCommand: e.target.value });
   };
@@ -177,6 +189,9 @@ class ThirdTask extends Component {
               )}
             </div>
           ))}
+          <div onClick={this.resetAll}>
+          <Autorenew style={{color: '#fff'}} />
+          </div>
         </div>
         <NavigationButton label='Next' path='/tasks/fourth_task' />
       </div>
