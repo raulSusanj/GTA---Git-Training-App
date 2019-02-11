@@ -9,12 +9,22 @@ import FourthTask from '../screens/TaskScreens/FourthTask';
 import FifthTask from '../screens/TaskScreens/FifthTask';
 import SixthTask from '../screens/TaskScreens/SixthTask';
 import SeventhTask from '../screens/TaskScreens/SeventhTask';
+import ParticipantList from '../components/ParticipantComponent/ParticipantList';
+import Congrats from '../screens/CongratulationScreen/Congrats';
 
 
 const routes = [
     {
         path: '/',
         component: Home
+    },
+    {
+        path: '/participants',
+        component: ParticipantList
+    },
+    {
+        path: '/congrats',
+        component: Congrats
     },
     {
         path: '/tasks/first_task',
