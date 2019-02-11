@@ -17,6 +17,8 @@ type Props = {
   jobTitle: string
 };
 
+const a =1;
+
 class Participant extends Component<Props> {
   state = {
     open: false,
