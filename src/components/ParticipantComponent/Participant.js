@@ -18,7 +18,7 @@ type Props = {
 };
 
 const a =1;
-const b =2;
+// const b =2;
 
 class Participant extends Component<Props> {
   state = {
