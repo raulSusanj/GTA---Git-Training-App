@@ -1,4 +1,3 @@
-// @flow
 import React, { Component, Fragment } from "react";
 import "./Participant.css";
 import List from "@material-ui/core/List";
@@ -12,12 +11,9 @@ import ExpandMore from '@material-ui/icons/ExpandMore';
 import StarRatings from 'react-star-ratings';
 
 
-type Props = {
-  fullName: string,
-  jobTitle: string
-};
 
-class Participant extends Component<Props> {
+
+class Participant extends Component{
   state = {
     open: false,
   };
