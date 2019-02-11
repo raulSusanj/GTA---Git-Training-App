@@ -7,7 +7,7 @@ import Back from '../../components/BackComponent/Back';
 class FirstTask extends Component {
 
     state = {
-       commands: ['git clone https://github.com/raulSusanj/GTA---Git-Training-App.git']
+       commands: ['$ git clone https://github.com/raulSusanj/GTA---Git-Training-App.git']
     }
   
     render() { 

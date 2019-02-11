@@ -8,7 +8,7 @@ import Back from '../../components/BackComponent/Back';
 class SecondTask extends Component {
 
     state = {
-       commands: ['git checkout -b branchName', 'git branch']
+       commands: ['$ git checkout -b branchName', '$ git branch']
     }
   
     render() { 
