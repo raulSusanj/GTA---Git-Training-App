@@ -123,6 +123,17 @@ class ThirdTask extends Component {
         });
       }
       break;
+      case "git push":
+      if (stages[3].active) {
+        this.setState(state => {
+          const stages = [...state.stages];
+          stages[1] = { ...stages[1], active: false };
+          stages[2] = { ...stages[2], active: false };
+          stages[3] = { ...stages[3], active: false };
+          return { stages };
+        });
+      }
+      break;
       default:
         break;
     }
