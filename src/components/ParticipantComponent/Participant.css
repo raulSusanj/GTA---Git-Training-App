@@ -13,6 +13,7 @@
     flex-direction: column;
     padding: 1em;
     margin: 1em;
+    margin-bottom: 5em;
 }
 
 .Participant-list-container {

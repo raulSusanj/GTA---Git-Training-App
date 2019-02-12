@@ -6,6 +6,11 @@ import { Link } from "react-router-dom";
 const NavigationButton = (props) => {
     const { label, path } = props;
     return ( 
+        <Link 
+        to={path} 
+        style={{
+          color:'#fff', 
+          textDecoration:'none'}}>
         <Button 
             variant='contained'
             color='primary'
@@ -20,15 +25,9 @@ const NavigationButton = (props) => {
                 borderRadius: '0'
                 }}
         >
-            <Link 
-                to={path} 
-                style={{
-                  color:'#fff', 
-                  textDecoration:'none'}}>
                 {label}
-            </Link>
-
         </Button>
+        </Link>
      );
 }
  

@@ -1,0 +1,22 @@
+.Modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: #F4F4F4;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 400;
+    border: 2px solid #444;
+}
+
+.Modal-content {
+    text-align: center;
+}
+
+.Certificate {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 70px;
+}

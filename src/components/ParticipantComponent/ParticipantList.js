@@ -13,7 +13,7 @@ class ParticipantList extends Component {
     return (
       <Fragment>
       <div className='Header-container'>
-        <h1 style={{color: '#fff',}}>PARTICIPANT LIST</h1>
+        <h1 style={{color: '#fff'}}>PARTICIPANT LIST</h1>
         <Clear 
           name='Clear'
           style={{color: '#fff', fontSize: '40px', position: 'absolute', right: '40'}}
@@ -25,7 +25,9 @@ class ParticipantList extends Component {
       <List>
         { ParticipantsData.map(participant =>(
             <Participant 
+              key={participant.fullName}
               fullName={participant.fullName} 
+              jobTitle={participant.jobTitle} 
               oldExp={participant.oldExp} 
               newExp={participant.newExp} 
              />
