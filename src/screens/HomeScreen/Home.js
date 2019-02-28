@@ -15,7 +15,7 @@ class Home extends Component {
             />
             <br/>
             <p className='Main-paragraph'>
-                This is a educational app for learning git fundamentals. 
+                This is an educational app for learning git fundamentals. 
                 You will learn necessary git commands and concepts.
             </p>
             <NavigationButton label='START' path='/tasks/first_task' />

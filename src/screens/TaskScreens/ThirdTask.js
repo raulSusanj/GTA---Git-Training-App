@@ -163,13 +163,13 @@ class ThirdTask extends Component {
     return (
       <div className="Container">
       <Back />
-        <h1>How it works?</h1>
+        <h1>How does it work?</h1>
         <p style={{ textAlign: "center" }}>
           Every commit can be changed, reverted but never deleted. Git always
           makes a copy of your commit.
           <br />
           We have 4 stages in git. It's important to understand which command
-          refers to which stage and what's doing.
+          refers to which stage and what it does.
         </p>
         <h3>THE 4 STAGES</h3>
 

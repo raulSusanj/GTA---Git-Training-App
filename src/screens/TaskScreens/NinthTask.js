@@ -16,7 +16,7 @@ class FirstTask extends Component {
     return (
       <div className="Container">
         <Back />
-        <h1>Distribution and branching system</h1>
+        <h1>DISTRIBUTION AND BRANCHING MODELS</h1>
         <List style={{ backgroundColor: "#fff", width: "600px" }}>
           <ListItem>
             <ListSubheader>DISTRIBUTION MODELS</ListSubheader>

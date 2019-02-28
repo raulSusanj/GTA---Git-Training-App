@@ -34,9 +34,9 @@ class FourthTask extends Component {
             <Fragment>
                 <p style={{ textAlign: "center" }}>
                 Now when you know all the essential commands we can push our changes
-                on the remote but first we
+                on the remote branch, but first we
                 <br />
-                need to stage our changes, commit them with a commit message (use -m
+                need to stage our changes and then commit them with a commit message (use -m
                 "Commit message").
                 </p>
                 <Button 
@@ -53,7 +53,7 @@ class FourthTask extends Component {
         ):(
             <Fragment>
                 <p style={{ textAlign: "center" }}>
-                Still don't push to the remote. Make a new change and add your job
+                Don't push to the remote yet. Make a new change and add your job
                 title in the ParticipantData.js.
                 <br />
                 Now add and commit the change but try to squash it with the last
