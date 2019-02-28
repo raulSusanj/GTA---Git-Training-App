@@ -25,9 +25,8 @@ class SecondTask extends Component {
                 <p>You can check on which branch you are now with:</p>
                 <Command command={this.state.commands[1]} />
                 <p style={{textAlign: 'center'}}>
-                    Now create inside the ./src/participants directory your own directory with your full name as directory name e.g. JoeDoe .<br/>
-                    Inside your new directory create a FullName.js file (with your own name) and create a stateless react component and render <br/>
-                    just a Participant component with props.
+                    Now create a new object in the src/ParticipantsData.js file (you already have an example object)<br/>
+                    Inside your object create just a key-value pair with your full name.
                 </p>
                 <NavigationButton label='Next' path='/tasks/third_task' />
             </div>

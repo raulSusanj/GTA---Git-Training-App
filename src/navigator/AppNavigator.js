@@ -9,6 +9,8 @@ import FourthTask from '../screens/TaskScreens/FourthTask';
 import FifthTask from '../screens/TaskScreens/FifthTask';
 import SixthTask from '../screens/TaskScreens/SixthTask';
 import SeventhTask from '../screens/TaskScreens/SeventhTask';
+import EighthTask from '../screens/TaskScreens/EighthTask';
+import NinthTask from '../screens/TaskScreens/NinthTask';
 import ParticipantList from '../components/ParticipantComponent/ParticipantList';
 import Congrats from '../screens/CongratulationScreen/Congrats';
 
@@ -53,6 +55,14 @@ const routes = [
     {
         path: '/tasks/seventh_task',
         component: SeventhTask
+    },
+    {
+        path: '/tasks/eighth_task',
+        component: EighthTask
+    },
+    {
+        path: '/tasks/ninth_task',
+        component: NinthTask
     },
 ]
 

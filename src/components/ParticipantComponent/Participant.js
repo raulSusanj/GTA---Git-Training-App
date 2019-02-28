@@ -66,7 +66,7 @@ class Participant extends Component {
                   name="rating"
                 />
                 <div style={{marginTop: '10px'}}>
-                <p onClick={this.toggleModal}>{toggleModalText}</p>
+                <p style={{fontWeight: '700', color: '#ff5511'}} onClick={this.toggleModal}>{toggleModalText}</p>
                 </div>
                 {modal && <Certificate fullName={fullName} close={this.toggleModal}/>}
               </div>

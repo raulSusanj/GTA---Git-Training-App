@@ -22,7 +22,7 @@ class SecondTask extends Component {
                 </p>
                 <Command command='$ git rebase -i' />
                 <p>Also use other commands that you know or have learned throw this training, like git show, reflog etc.</p>
-                <NavigationButton label='Next' path='/congrats' />
+                <NavigationButton label='Next' path='/tasks/eighth_task' />
             </div>
          );
     }
