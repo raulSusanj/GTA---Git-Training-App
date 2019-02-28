@@ -7,5 +7,9 @@ export const ParticipantsData = [
         //enter your knowledge rate from 0 to 5 after this git training
         newExp: 4,
     },
+    {
+        fullName: 'Raul Susanj',
+        jobTitle: 'Mobile developer!'
+    }
 
 ]
