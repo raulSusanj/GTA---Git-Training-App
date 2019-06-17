@@ -8,8 +8,10 @@ export const ParticipantsData = [
         newExp: 4,
     },
     {
-        fullName: 'Raul Susanj',
-        jobTitle: 'Mobile developer!'
+        fullName: 'Raul Susanj Samolov',
+        jobTitle: 'Mobile developer',
+        oldExp: 1,
+        newExp: 3
     }
 
 ]
