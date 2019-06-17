@@ -10,7 +10,7 @@ class FifthTask extends Component {
             <div className='Container'>
                 <Back />
                 <h1>REVERT vs RESET</h1>
-                <p><em>Revert - </em> makes a COPIII of a referred commit and all the other commits between the new one while the referred ones are still there.</p>
+                <p><em>Revert - </em> makes a copy of a referred commit and all the other commits between the new one while the referred ones are still there.</p>
                 <div style={{backgroundColor: '#fff', padding: '1em'}}>
                 <img 
                     src={require('../../assets/revertExample.png')} 

@@ -14,7 +14,7 @@ class FirstTask extends Component {
         return ( 
             <div className='Container'>
                 <Back />
-                <h1>Prepare Yourself!</h1>
+                <h1>Prepare yourself!</h1>
                 <p>First clone the existing project with command:</p>
                 <Command command={this.state.commands[0]} />
                 <NavigationButton label='Next' path='/tasks/second_task' />
